@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header class="header">
+            <button class="btn-icon back-btn">❮</button>
+            <div class="level-info">
+                <span class="difficulty">MÉDIO</span>
+                <h1 id="level-display">Nível 1</h1>
+            </div>
+            <div class="flag-icon">🇵🇹</div>
+        </header>
+
+        <main class="grid-container">
+            <div class="grid">
+                <div class="cell"></div>
+                <div class="cell green">A</div>
+                <div class="cell green">L</div>
+                <div class="cell green">V</div>
+                <div class="cell green">O</div>
+            </div>
+        </main>
+
+        <footer class="interaction-area">
+            <button class="btn-action shuffle-btn">🔀</button>
+            
+            <div class="wheel-container">
+                <div class="letter-wheel">
+                    <span class="letter top">L</span>
+                    <span class="letter left">V</span>
+                    <span class="letter right">A</span>
+                    <span class="letter bottom">O</span>
+                </div>
+            </div>
+
+            <button class="btn-action hint-btn">
+                💡 <span id="hint-count" class="badge">2</span>
+            </button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
